@@ -1,0 +1,15 @@
+my_dict={'Inna':1945,'Misa':1823,'Sasha':1955,'Grisha':3003,'Dasha':2000}
+print(my_dict)
+print(my_dict.get('Dasha'))
+print(my_dict.get('dasha'))
+my_dict['Lusya']=5000
+my_dict['Roma']=1900
+a=(my_dict.pop('Grisha'))
+print(a)
+print(my_dict)
+my_set={1,9,2,8,3,7,4,6,5,5,6,4,3,7,2,8,1,9,'string','true',(1,2,3)}
+print(my_set)
+print(my_set.add('77'))
+print(my_set.add(55))
+print(my_set.remove(1))
+print(my_set)
